@@ -1,0 +1,246 @@
+[0/4] Performing build step for 'sitl_gazebo-classic'
+[1/80] Linking CXX shared library libgazebo_lidar_plugin.so
+[2/80] Building CXX object CMakeFiles/gazebo_mavlink_interface.dir/src/mavlink_interface.cpp.o
+In file included from /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /usr/include/boost/shared_ptr.hpp:17,
+                 from /usr/include/boost/date_time/time_clock.hpp:17,
+                 from /usr/include/boost/date_time/posix_time/posix_time_types.hpp:10,
+                 from /usr/include/boost/asio/time_traits.hpp:23,
+                 from /usr/include/boost/asio/detail/timer_queue_ptime.hpp:22,
+                 from /usr/include/boost/asio/detail/deadline_timer_service.hpp:29,
+                 from /usr/include/boost/asio/basic_deadline_timer.hpp:25,
+                 from /usr/include/boost/asio.hpp:25,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/mavlink_interface.h:36,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/mavlink_interface.cpp:1:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[3/80] Building CXX object CMakeFiles/gazebo_uuv_plugin.dir/src/gazebo_uuv_plugin.cpp.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/gazebo_uuv_plugin.h:22,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/gazebo_uuv_plugin.cpp:28:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[4/80] Linking CXX shared library libgazebo_uuv_plugin.so
+[5/80] Building CXX object CMakeFiles/gazebo_gimbal_controller_plugin.dir/src/gazebo_gimbal_controller_plugin.cpp.o
+[6/80] Linking CXX shared library libgazebo_gimbal_controller_plugin.so
+[7/80] Building CXX object CMakeFiles/gazebo_sonar_plugin.dir/src/gazebo_sonar_plugin.cpp.o
+[8/80] Linking CXX shared library libgazebo_sonar_plugin.so
+[9/80] Building CXX object CMakeFiles/gazebo_aruco_plugin.dir/src/gazebo_aruco_plugin.cpp.o
+[10/80] Linking CXX shared library libgazebo_aruco_plugin.so
+[11/80] Building CXX object CMakeFiles/gazebo_camera_manager_plugin.dir/src/gazebo_camera_manager_plugin.cpp.o
+[12/80] Linking CXX shared library libgazebo_camera_manager_plugin.so
+[13/80] Building CXX object CMakeFiles/gazebo_barometer_plugin.dir/src/gazebo_barometer_plugin.cpp.o
+[14/80] Linking CXX shared library libgazebo_multirotor_base_plugin.so
+[15/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tiltrotor/tiltrotor.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tiltrotor/tiltrotor.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tiltrotor/tiltrotor.sdf
+[16/80] Linking CXX shared library libgazebo_magnetometer_plugin.so
+[17/80] Building CXX object CMakeFiles/gazebo_motor_model.dir/src/gazebo_motor_model.cpp.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/gazebo_motor_model.h:25,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/gazebo_motor_model.cpp:22:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[18/80] Linking CXX shared library libgazebo_motor_model.so
+[19/80] Building CXX object CMakeFiles/gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/gazebo_controller_interface.h:22,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/gazebo_controller_interface.cpp:22:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[20/80] Linking CXX shared library libgazebo_controller_interface.so
+[21/80] Building CXX object CMakeFiles/gazebo_imu_plugin.dir/src/gazebo_imu_plugin.cpp.o
+[22/80] Linking CXX shared library libgazebo_imu_plugin.so
+[23/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/typhoon_h480/typhoon_h480.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/typhoon_h480/typhoon_h480.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/typhoon_h480/typhoon_h480.sdf
+[24/80] Building CXX object CMakeFiles/gazebo_drop_plugin.dir/src/gazebo_drop_plugin.cpp.o
+[25/80] Building CXX object CMakeFiles/gazebo_mavlink_interface.dir/src/gazebo_mavlink_interface.cpp.o
+In file included from /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/include/boost/smart_ptr/shared_ptr.hpp:29,
+                 from /usr/include/boost/shared_ptr.hpp:17,
+                 from /usr/include/boost/date_time/time_clock.hpp:17,
+                 from /usr/include/boost/date_time/posix_time/posix_time_types.hpp:10,
+                 from /usr/include/boost/asio/time_traits.hpp:23,
+                 from /usr/include/boost/asio/detail/timer_queue_ptime.hpp:22,
+                 from /usr/include/boost/asio/detail/deadline_timer_service.hpp:29,
+                 from /usr/include/boost/asio/basic_deadline_timer.hpp:25,
+                 from /usr/include/boost/asio.hpp:25,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/gazebo_mavlink_interface.h:33,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/gazebo_mavlink_interface.cpp:22:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[26/80] Linking CXX shared library libgazebo_mavlink_interface.so
+[27/80] Linking CXX shared library libgazebo_barometer_plugin.so
+[28/80] Building CXX object CMakeFiles/gazebo_gst_camera_plugin.dir/src/gazebo_gst_camera_plugin.cpp.o
+[29/80] Building CXX object CMakeFiles/gazebo_wind_plugin.dir/src/gazebo_wind_plugin.cpp.o
+[30/80] Linking CXX shared library libgazebo_wind_plugin.so
+[31/80] Linking CXX shared library libgazebo_parachute_plugin.so
+[32/80] Linking CXX shared library libgazebo_drop_plugin.so
+[33/80] Linking CXX shared library libgazebo_pose_sniffer_plugin.so
+[34/80] Linking CXX shared library libgazebo_gst_camera_plugin.so
+[35/80] Building CXX object CMakeFiles/gazebo_usv_dynamics_plugin.dir/src/gazebo_usv_dynamics_plugin.cpp.o
+[36/80] Building CXX object CMakeFiles/gazebo_catapult_plugin.dir/src/gazebo_catapult_plugin.cpp.o
+[37/80] Linking CXX shared library libgazebo_usv_dynamics_plugin.so
+[38/80] Linking CXX shared library libgazebo_catapult_plugin.so
+[39/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/advanced_plane/advanced_plane.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/advanced_plane/advanced_plane.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/advanced_plane/advanced_plane.sdf
+[40/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/3DR_gps_mag/3DR_gps_mag.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/3DR_gps_mag/3DR_gps_mag.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/3DR_gps_mag/3DR_gps_mag.sdf
+[41/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/boat/boat.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/boat/boat.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/boat/boat.sdf
+[42/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/c920/c920.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/c920/c920.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/c920/c920.sdf
+[43/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/cloudship/cloudship.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/cloudship/cloudship.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/cloudship/cloudship.sdf
+[44/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/depth_camera/depth_camera.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/depth_camera/depth_camera.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/depth_camera/depth_camera.sdf
+[45/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris/iris.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris/iris.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris/iris.sdf
+[46/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/matrice_100/matrice_100.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/matrice_100/matrice_100.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/matrice_100/matrice_100.sdf
+[47/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/mb1240-xl-ez4/mb1240-xl-ez4.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/mb1240-xl-ez4/mb1240-xl-ez4.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/mb1240-xl-ez4/mb1240-xl-ez4.sdf
+[48/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/pixhawk/pixhawk.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/pixhawk/pixhawk.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/pixhawk/pixhawk.sdf
+[49/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/plane/plane.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/plane/plane.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/plane/plane.sdf
+[50/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/px4flow/px4flow.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/px4flow/px4flow.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/px4flow/px4flow.sdf
+[51/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/quadtailsitter/quadtailsitter.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/quadtailsitter/quadtailsitter.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/quadtailsitter/quadtailsitter.sdf
+[52/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/r200/r200.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/r200/r200.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/r200/r200.sdf
+[53/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/sf10a/sf10a.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/sf10a/sf10a.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/sf10a/sf10a.sdf
+[54/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol/standard_vtol.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol/standard_vtol.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol/standard_vtol.sdf
+[55/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol_drop/standard_vtol_drop.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol_drop/standard_vtol_drop.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/standard_vtol_drop/standard_vtol_drop.sdf
+[56/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tailsitter/tailsitter.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tailsitter/tailsitter.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/tailsitter/tailsitter.sdf
+[57/80] Generating /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/uuv_bluerov2_heavy/uuv_bluerov2_heavy.sdf
+/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/uuv_bluerov2_heavy/uuv_bluerov2_heavy.sdf.jinja -> /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/uuv_bluerov2_heavy/uuv_bluerov2_heavy.sdf
+[58/80] Generating include/moc_gazebo_video_stream_widget.cpp
+[59/80] Building CXX object CMakeFiles/gazebo_airship_dynamics_plugin.dir/src/gazebo_airship_dynamics_plugin.cpp.o
+In file included from /usr/include/boost/bind.hpp:30,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/include/gazebo_airship_dynamics_plugin.h:45,
+                 from /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/src/gazebo_airship_dynamics_plugin.cpp:44:
+/usr/include/boost/bind.hpp:36:1: note: ‘#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.’
+   36 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[60/80] Building CXX object CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o
+[61/80] Building CXX object CMakeFiles/gazebo_video_stream_widget.dir/src/gazebo_video_stream_widget.cpp.o
+[62/80] Building CXX object CMakeFiles/gazebo_video_stream_widget.dir/include/moc_gazebo_video_stream_widget.cpp.o
+[63/80] Linking CXX shared library libgazebo_airship_dynamics_plugin.so
+[64/80] Linking CXX shared library libLiftDragPlugin.so
+[65/80] Building CXX object CMakeFiles/ForceVisual.dir/src/force_visual/force_visual.cpp.o
+[66/80] Generating include/moc_gazebo_user_camera_plugin.cpp
+[67/80] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/px4flow.cpp.o
+[68/80] Linking CXX shared library libForceVisual.so
+[69/80] Linking CXX shared library libgazebo_video_stream_widget.so
+[70/80] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/flow_px4.cpp.o
+[71/80] Building CXX object CMakeFiles/AdvancedLiftDragPlugin.dir/src/liftdrag_plugin/advanced_liftdrag_plugin.cpp.o
+[72/80] Building CXX object OpticalFlow/klt_feature_tracker/CMakeFiles/klt_feature_tracker.dir/src/trackFeatures.cpp.o
+[73/80] Linking CXX static library OpticalFlow/klt_feature_tracker/libklt_feature_tracker.a
+[74/80] Building CXX object OpticalFlow/CMakeFiles/OpticalFlow.dir/src/flow_opencv.cpp.o
+[75/80] Linking CXX shared library OpticalFlow/libOpticalFlow.so
+[76/80] Linking CXX shared library libAdvancedLiftDragPlugin.so
+[77/80] Linking CXX shared library libgazebo_opticalflow_plugin.so
+[78/80] Building CXX object CMakeFiles/gazebo_user_camera_plugin.dir/include/moc_gazebo_user_camera_plugin.cpp.o
+[79/80] Building CXX object CMakeFiles/gazebo_user_camera_plugin.dir/src/gazebo_user_camera_plugin.cpp.o
+[80/80] Linking CXX shared library libgazebo_user_camera_plugin.so
+[2/4] No install step for 'sitl_gazebo-classic'
+[3/4] Completed 'sitl_gazebo-classic'
+[3/4] cd /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/src/modules/simulation/simulator_mavlink && /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_run.sh /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/bin/px4 none iris none /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default
+SITL ARGS
+sitl_bin: /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/bin/px4
+debugger: none
+model: iris
+world: none
+src_path: /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot
+build_path: /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default
+GAZEBO_PLUGIN_PATH :/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/build_gazebo-classic
+GAZEBO_MODEL_PATH :/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models
+LD_LIBRARY_PATH /opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/build_gazebo-classic
+empty world, setting empty.world as default
+Using: /mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris/iris.sdf
+SITL COMMAND: "/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default/bin/px4" "/mnt/WORKPACES/USER/contest/ISLAB-PX4-AUTOPILOT/islab_autopilot/build/px4_sitl_default"/etc
+
+______  __   __    ___ 
+| ___ \ \ \ / /   /   |
+| |_/ /  \ V /   / /| |
+|  __/   /   \  / /_| |
+| |     / /^\ \ \___  |
+\_|     \/   \/     |_/
+
+px4 starting.
+
+INFO  [px4] startup script: /bin/sh etc/init.d-posix/rcS 0
+INFO  [init] found model autostart file as SYS_AUTOSTART=10015
+INFO  [param] selected parameter default file parameters.bson
+INFO  [param] selected parameter backup file parameters_backup.bson
+  SYS_AUTOCONFIG: curr: 0 -> new: 1
+  SYS_AUTOSTART: curr: 0 -> new: 10015
+  CAL_ACC0_ID: curr: 0 -> new: 1310988
+  CAL_GYRO0_ID: curr: 0 -> new: 1310988
+  CAL_ACC1_ID: curr: 0 -> new: 1310996
+  CAL_GYRO1_ID: curr: 0 -> new: 1310996
+  CAL_ACC2_ID: curr: 0 -> new: 1311004
+  CAL_GYRO2_ID: curr: 0 -> new: 1311004
+  CAL_MAG0_ID: curr: 0 -> new: 197388
+  CAL_MAG0_PRIO: curr: -1 -> new: 50
+  CAL_MAG1_ID: curr: 0 -> new: 197644
+  CAL_MAG1_PRIO: curr: -1 -> new: 50
+  SENS_BOARD_X_OFF: curr: 0.0000 -> new: 0.0000
+  SENS_DPRES_OFF: curr: 0.0000 -> new: 0.0010
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+INFO  [dataman] data manager file './dataman' size is 7872608 bytes
+INFO  [init] PX4_SIM_HOSTNAME: localhost
+INFO  [simulator_mavlink] Waiting for simulator to accept connection on TCP port 4560
+INFO  [simulator_mavlink] Simulator connected on TCP port 4560.
+INFO  [lockstep_scheduler] setting initial absolute time to 3448000 us
+WARN  [vehicle_angular_velocity] no gyro selected, using sensor_gyro_fifo:0 1310988
+INFO  [commander] LED: open /dev/led0 failed (22)
+WARN  [health_and_arming_checks] Preflight Fail: ekf2 missing data
+INFO  [uxrce_dds_client] init UDP agent IP:127.0.0.1, port:8888
+INFO  [mavlink] mode: Normal, data rate: 4000000 B/s on udp port 18570 remote port 14550
+INFO  [mavlink] mode: Onboard, data rate: 4000000 B/s on udp port 14580 remote port 14540
+INFO  [mavlink] mode: Onboard, data rate: 4000 B/s on udp port 14280 remote port 14030
+INFO  [mavlink] mode: Gimbal, data rate: 400000 B/s on udp port 13030 remote port 13280
+INFO  [logger] logger started (mode=all)
+INFO  [logger] Start file log (type: full)
+INFO  [logger] [logger] ./log/2025-07-11/15_55_06.ulg	
+INFO  [logger] Opened full log file: ./log/2025-07-11/15_55_06.ulg
+INFO  [mavlink] MAVLink only on localhost (set param MAV_{i}_BROADCAST = 1 to enable network)
+INFO  [mavlink] MAVLink only on localhost (set param MAV_{i}_BROADCAST = 1 to enable network)
+INFO  [px4] Startup script returned successfully
+pxh> [1;32m[Msg] [0m[1;32mWaiting for master.[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mConnected to gazebo master @ [0m[1;32mhttp://127.0.0.1:11345[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;32m[Msg] [0m[1;32mPublicized address: [0m[1;32m192.168.11.171[0m[1;32m
+[0m[1;32m[0m[1;32m[0m[1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[0mINFO  [tone_alarm] home set
+INFO  [commander] [32mReady for takeoff![0m
+
+PX4 Exiting...
+[2K
+pxh> [1;33m[Wrn] [Event.cc:61] [0m[1;33mWarning: Deleting a connection right after creation. [0m[1;33mMake sure to save the ConnectionPtr from a Connect call
+[0mExiting NOW.
+ninja: build stopped: interrupted by user.
+make: *** [Makefile:232: px4_sitl] Interrupt
