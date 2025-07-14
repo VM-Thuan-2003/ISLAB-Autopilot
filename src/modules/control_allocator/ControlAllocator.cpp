@@ -534,7 +534,7 @@ void ControlAllocator::preflight_check_start(vehicle_command_s &cmd, hrt_abstime
 	}
 
 	const int axis = (uint8_t) lroundf(cmd.param1);
-	float input = cmd.param2;
+	const float input = cmd.param2;
 
 	_preflight_check_running = true;
 	_preflight_check_axis = axis;
