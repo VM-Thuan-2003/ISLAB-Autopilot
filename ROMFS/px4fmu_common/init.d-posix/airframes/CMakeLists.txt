@@ -103,5 +103,10 @@ px4_add_romfs_files(
 	17001_flightgear_tf-g1
 	17002_flightgear_tf-g2
 
+	80000_gazebo-classic_islab
+	80001_gazebo-classic_islab_camera
+	80002_gazebo-classic_islab_balls
+	80003_gazebo-classic_islab_contest
+
 	# [22000, 22999] Reserve for custom models
 )

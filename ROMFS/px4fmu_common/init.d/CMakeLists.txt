@@ -65,6 +65,7 @@ if(CONFIG_MODULES_MC_RATE_CONTROL)
 		rc.heli_defaults
 		rc.mc_apps
 		rc.mc_defaults
+		rc.mc_islab
 	)
 endif()
 
