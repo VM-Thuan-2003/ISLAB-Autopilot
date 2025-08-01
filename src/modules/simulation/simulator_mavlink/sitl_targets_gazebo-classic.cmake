@@ -124,6 +124,7 @@ if(gazebo_FOUND)
 		yosemite
 		baskets
 		contest_1
+		test_1
 	)
 
 	# find corresponding airframes
