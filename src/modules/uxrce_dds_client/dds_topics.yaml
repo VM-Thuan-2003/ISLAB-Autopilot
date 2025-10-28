@@ -44,6 +44,9 @@ publications:
   - topic: /fmu/out/timesync_status
     type: px4_msgs::msg::TimesyncStatus
 
+  - topic: /fmu/out/log_message
+    type: px4_msgs::msg::LogMessage
+
   # - topic: /fmu/out/vehicle_angular_velocity
   #   type: px4_msgs::msg::VehicleAngularVelocity
 
